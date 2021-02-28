@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
-          Hello There. This is RK. Do you know react is easy to learn
+          Hello There. Do you know react is easy to learn
         </p>
         <a
           className="App-link"
