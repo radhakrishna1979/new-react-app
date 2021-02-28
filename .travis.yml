@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t radhakrishna1979/new-react-app -f Dockerfile.dev
+  - docker build -t radhakrishna1979/new-react-app -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true radhakrishna1979/new-react-app npm run test -- --coverage
